@@ -1,0 +1,386 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #c4b107;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.navbar{
+    display: flex;
+    margin-right: 100px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #affffa;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background: url(img/Header.jpeg) no-repeat center;
+    background: url(img/LOGO.webp);
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-weight: 620;
+    text-transform: uppercase;
+    color:#303030;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 20;
+    color: #fff;
+    padding: 0 150px;
+}
+
+.btn {
+    display: inline block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #affffa;
+    color: #fff;
+    text-decoration: none;
+    background: #c4b107;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 100px 0;
+    background: #303030;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: centers;
+}
+
+.box-container .box {
+    height: 170px;
+    width: 270px;
+    background: violet;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(red, green, blue, alpha);
+    margin: 20px;
+}
+
+.box-container .box i {
+   height: 50px;
+   width: 50px;
+   line-height: 50px;
+   text-align: center;
+   border-radius: 50%;
+   color: #affffa;
+   background:#e91e63;
+   font-size: 25px;
+   margin: 10px 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #e91e63;
+}
+
+.box-container .box p {
+        padding: 0 15px;
+        font-size: 16px;
+}
+
+.price{
+    background: url(img/mapa.jpeg) no-repeat center;
+    background-size: auto;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.about {
+    background: #303030;
+    padding: 50px 0;
+}
+
+
+
+
+
+.box-container2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.box-container2 .box {
+    width: 250px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(red, green, blue, alpha);
+    background: #171717;
+    margin: 20px 20px;
+}
+
+.box-container2 .box img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 0px solid #affffa;
+}
+
+.box-container2 .box h3{
+    font-size: 20px;
+    color:#e91e63;
+    padding-top: 10px;
+}
+
+.box-container2 .box p {
+padding: 0 15px;
+    font-size:18px;
+    color: #fff;
+    padding: 0;
+}
+
+.box-container2 .box .stars i {
+    font-size: 15px;
+    color: #e91e63;
+}
+
+.contact {
+    padding: 50px 0;
+    background: #171717;
+}
+
+.footer-section {
+    display: flex;
+}
+
+.f-enlaces { 
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+}
+
+.f-enlaces a {
+    color:#fff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+    .title{ 
+        margin-bottom: 2px;
+        font-size: 40px;}
+      .sau{
+        height: 100vh;
+        padding: 50px 0;
+      }
+      .about {
+        height: 100vh;
+        padding: 50px 0;
+      }
+      .footer-section {
+        display: flex;
+        flex-direction: column;
+      }
+      .f-enlaces {
+        display: none;
+      }
+
+      .navbar {
+        display: none;
+      }
+      .boton.uno::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: #c4b107;
+        position: absolute;
+        z-index: 1;
+        top: -80px;
+        left: 0;
+        transition: .3s ease-in-out all;
+    }
+
+    form {
+        /* Centrar el formulario en la página */
+        margin: 0 auto;
+        width: 400px;
+        /* Esquema del formulario */
+        padding: 1em;
+        border: 1px solid #ccc;
+        border-radius: 1em;
+      }
+      
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      form li + li {
+        margin-top: 1em;
+      }
+      
+     /* Importación de fuentes de google fonts */ 
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+body{
+	height: 100%; 
+	font-family: 'Noto Sans', sans-serif;
+  background-color: #a8a8a8; 
+}
+
+
+.contact_form{	
+	width: 460px; 
+  height: auto;
+  margin: 80px auto;
+	border-radius: 10px;  
+	padding-top: 30px;
+	padding-bottom: 20px;  
+  background-color: #affffa; 
+  padding-left: 30px; 
+}
+
+
+input{
+	background-color: #fbfbfb; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #ab4493; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #171717; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+	float: center; 	
+}
+
+
+button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: #97d848; 
+	border-color: #c4b107; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+	color: #fff; 
+}
+
+
+span{
+	color: #ab4493; 
+}
+
+
+.aviso{
+	font-size: 13px;  
+	color: #0e0e0e;  
+}
+
+
+h1{
+	font-size: 39px;  
+	text-align: letf; 
+	padding-bottom: 20px; 
+	color: #ab4493;
+}
+
+
+h3{
+	font-size: 16px; 
+	padding-bottom: 30px;
+	color: #0e0e0e;   
+}
+
+
+p{
+	font-size: 14px; 
+	color: #0e0e0e; 
+}
+      
+
